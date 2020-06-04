@@ -4,7 +4,8 @@
         <form method = 'POST' action = '' >
             {{form.hidden_tag()}}
             <fieldset class = 'form-group'>
-                <legend class = 'border bottom mb-4'> Login</legend>
+                Login
+                <hr>
                 <div class = "form-group">
                     {{form.email.label(class = 'form-control-label')}}
                     {% if form.email.errors %}
